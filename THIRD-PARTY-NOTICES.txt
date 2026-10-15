@@ -1,0 +1,22 @@
+The MIT license at the repository root applies to the project's own launcher,
+guard, memory import implementation, build scripts, and documentation only.
+
+MinHook 1.3.4, Tsuda Kageyu and contributors:
+https://github.com/TsudaKageyu/minhook/tree/v1.3.4
+See third_party/minhook/LICENSE.txt for its full license, including the
+Hacker Disassembler Engine notices. Original source notices are retained.
+
+The process import insertion code is an implementation in this project.
+Microsoft Detours is not linked or included. A reference for the general
+in-memory technique is:
+https://github.com/microsoft/Detours/wiki/DetourCreateProcessWithDllEx
+
+No Baidu Netdisk application, logo, account, or third-party client resources
+are included in this source repository. Baidu Netdisk remains proprietary
+software of its respective right holders; this project's license grants no
+rights to distribute or relicense that application. This project is unaffiliated
+with Baidu. Users must provide an appropriate original client themselves.
+
+The launcher build includes only its asInvoker manifest and does not embed
+the proprietary client logo. An older workspace-only prototype used that
+logo; that older binary is not the launcher in the current clean package.

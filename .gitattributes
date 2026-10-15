@@ -1,0 +1,5 @@
+* text=auto
+*.c text eol=lf
+*.h text eol=lf
+*.ps1 text eol=crlf
+*.md text eol=lf
