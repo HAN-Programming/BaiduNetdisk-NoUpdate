@@ -14,13 +14,13 @@
 </p>
 
 <p>
-  <a href="https://github.com/HAN-Programming/BaiduNetdisk-portable/releases"><img src="https://img.shields.io/badge/Download-Releases-2563EB?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="前往 Releases 下载启动器与保护组件" /></a>
+  <a href="https://github.com/HAN-Programming/BaiduNetdisk-NoUpdate/releases"><img src="https://img.shields.io/badge/Download-Releases-2563EB?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="前往 Releases 下载启动器与保护组件" /></a>
 </p>
 
 <p>
   <a href="#quick-start">🚀 开始使用</a> ·
   <a href="docs/PORTABILITY.md">📖 使用条件</a> ·
-  <a href="https://github.com/HAN-Programming/BaiduNetdisk-portable/issues">💬 问题反馈</a>
+  <a href="https://github.com/HAN-Programming/BaiduNetdisk-NoUpdate/issues">💬 问题反馈</a>
 </p>
 
 </div>
@@ -42,9 +42,9 @@
 
 ## ⬇️ 下载与使用
 
-**公开发布范围：自编启动器、保护组件、依赖源码和说明，不包含百度网盘完整客户端。** 首次使用需要自行准备 **百度网盘 7.36.0.3 的 32 位原始客户端文件**。
+**公开发布范围：自编启动器、保护组件、依赖源码和说明，已包含百度网盘完整客户端。
 
-1. **获取组件**：打开 [Releases 发布页](https://github.com/HAN-Programming/BaiduNetdisk-portable/releases)，阅读版本说明并选择对应组件附件。GitHub 自动生成的 `Source code` 是源码；如尚无组件附件，可按下文从源码构建。
+1. **获取组件**：打开 [Releases 发布页](https://github.com/HAN-Programming/BaiduNetdisk-NoUpdate/releases)，阅读版本说明并选择对应组件附件。GitHub 自动生成的 `Source code` 是源码；如尚无组件附件，可按下文从源码构建。
 2. **准备目录**：按照发行说明，将匹配版本的原始客户端程序、DLL 和资源文件放入 `App`，保留组件的 `App/.portable/runtime` 与 `App/portable.ini` 等相对位置。
 3. **双击启动**：运行根目录的 **`百度网盘便携启动.exe`**。启动器使用图形界面，不弹命令行窗口，不请求管理员权限。
 4. **登录并下载**：正常登录网盘，默认将下载文件保存到根目录的 `Downloads`。
@@ -121,7 +121,7 @@
 - **系统记录仍有边界**：Windows 自身产生的日志等记录，不在“客户端常见路径重定向”的保证范围内，不承诺系统绝对零写入。
 - **下载速度仍取决于官方服务与网络条件**：项目关注便携运行、更新限制与数据保存位置。
 
-使用前请阅读 [完整使用条件与便携边界](docs/PORTABILITY.md)。遇到问题可 [提交 Issue](https://github.com/HAN-Programming/BaiduNetdisk-portable/issues)，附上系统版本、客户端版本、复现步骤与脱敏日志。
+使用前请阅读 [完整使用条件与便携边界](docs/PORTABILITY.md)。遇到问题可 [提交 Issue](https://github.com/HAN-Programming/BaiduNetdisk-NoUpdate/issues)，附上系统版本、客户端版本、复现步骤与脱敏日志。
 
 ## 🛠️ 源码与构建
 
